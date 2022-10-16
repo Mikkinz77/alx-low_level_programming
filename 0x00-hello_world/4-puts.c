@@ -1,18 +1,10 @@
 #include <stdio.h>
 /**
-**main-program entry point.
-**Return:0 if no error, non zero if error.
+**main- Serves as the entry point for the program
+**Return: By default returns zero if no erros otherwise returns non-zero value.
 **/
 int main(void)
 {
-
-char i;
-for (i = 'a'; i <= 'z'; i++)
-{
-if (i == 'e' || i == 'q')
-continue;
-putchar(i);
-}
-putchar('\n');
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
