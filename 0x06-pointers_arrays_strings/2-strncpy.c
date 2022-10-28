@@ -4,9 +4,10 @@
  * _strcat - Concatenates two strings.
  * @dest: The string to be concatenated upon.
  * @src: The string to be appended to dest.
+ *
  * Return: A pointer to the resulting string dest.
  */
-char *_strcat(char *dest, char *src)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int index = 0, dest_len = 0;
 
